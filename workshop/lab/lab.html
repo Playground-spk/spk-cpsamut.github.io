@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,tr,td,th{
+            border: 10px solid whitesmoke   ;
+            border-collapse: collapse;
+            padding: 30px;
+            
+        }
+        table{
+            width: 96%;
+            background-color: brown;
+            margin-top:50px;
+            text-align: center;
+            
+            
+        }
+
+        
+        body{
+            background-color: sienna;
+        }
+
+        #tablewithout-line{
+            border: 30px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <table align="center"  >
+<tr style="font-size: 25px;"><!--หัวข้อหลัก-->
+    <th colspan="2" >1.หา attributeของ tagต่อไปนี้และบอกวิธีใช้</th>
+    <th colspan="2">2.หาความเหมือนและความแตกต่าง ระหว่าง 2tag</th>
+    <th colspan="2">3.ให้หา input type แตกต่างกันอย่างไร</th>
+</tr>
+<tr><!--หัวข้อย่อย-->
+    <th>tag</th><th>attribute</th>
+    <th>ระหว่าง</th><th>ความแตกต่าง</th>
+    <th style="width: ;" >ชนิดของ input type</th><th >ลักษณะ</th>
+</tr>
+<tr><!--แถว1-->
+    <td>h,p,div,table,ul,ol,button,form</td>   <td>style:ใช้เพื่อนำ cssมาใช้</td>    
+    <td>hr&br</td><td>hr จบบรรทัดพร้อมเส้นใต้<br>br ชึ้นบรรทัดใหม่</td>
+    <td>button</td><td>สร้างปุ่มให้คลิ๊กและใส่ลูกเล่น</td>
+    
+</tr>
+<tr><!--แถวที่2-->
+    <td rowspan="3">img</td><td>src: กำหนดที่มารูปภาพ</td>
+    <td>ul&ol</td><td>ul:หัวข้อย่อยแบบมีจุด<br>ol:หัวข้อย่อยแบบเรียงลำดับ</td>
+    <td>checkbox</td> <td>สร้างกล่องที่มีตัวเลือกให้เลือก</td>
+</tr> 
+<tr><!--แถวที่3-->
+    <td>alt: ข้อความสำรองสำหรับรูปภาพหากไม่สามารถแสดงรูปภาพได้</td><!--rowspan2.1 2/3-->
+    <td>select&checkbox&radio button</td><td>select: สร้างกล่องที่ข้างในมีตัวเลือก<br><br> checkbox: สร้างช่องเครื่องหมายสำหรับกดเลือก<br><br> radio button: สร้างช่องสำหรับเลือกข้อใดข้อหนึ่ง </td>
+     <td>color</td><td>สร้างตัวเลือกให้เลือกสี</td>
+</tr>
+<tr><!--แถวที่4-->
+    <td>style:ใช้เพื่อนำ cssมาใช้</td><!--rowspan2.1 3/3-->
+    <td>div&span</td><td>div: สร้างแผง เท่ากับ1บรรทัด<br><br> span:ไม่ขึ้นบรรทัดใหม่ </td>
+    <td>date</td><td>เลือกเวลา</td>
+</tr>
+<tr><!--แถวที่5-->
+    <td rowspan="3">a</td> <td>style:ใช้เพื่อนำ cssมาใช้</td>
+    <td>script&style</td><td>script: สร้างสำหรับjava <br><br>style:สร้างสำหรับ css </td>
+    <td>date time local</td><td>เลือกเวลาแบบปฎิธิน</td>
+</tr>
+<tr><!--แถวที่6-->
+    <td>href: กำหนดปลายทางลิงค์</td><!--rowspan3.1 2/3-->
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td>email</td><td>กล่องใส่email</td>
+</tr>
+<tr>
+    <td>target: ระบุตำแหน่งที่จะเปิดเอกสารที่เชื่อมโยง</td><!--rowspan3.1 3/3-->
+    <td>file</td><td>กล่องใส่file</td>
+</tr>
+<tr class="tablewithout-line">
+    <td colspan="4" rowspan="15" class="tablewithout-line"></td>
+    <td>hidden</td><td>กล่องส่งข้อความที่ไม่แสดงว่ามาจากใคร</td>
+</tr>
+<tr>
+    
+    <td>image</td><td>ใส่รูป</td>
+</tr>
+<tr>
+    
+    <td>month</td><td>มีให้ใส่เดือนกับปี</td>
+</tr>
+<tr>
+    
+    <td>number</td><td>กำหนดเลขให้เลือก</td>
+</tr>
+<tr>
+    
+    <td>password</td>
+    <td>กล่องใส่ตัวหนังสือแต่ซ่อนรูป</td>
+
+</tr>
+<tr>
+    
+    <td>radio</td>
+    <td>ให้เลือกตัวเลือกหนึ่งจากหลายๆตัวที่ตั้ง</td>
+</tr>
+<tr>
+    
+    <td>range</td><td>ปรับระดับแบบเข็ม</td>
+</tr>
+<tr>
+    
+    <td>reset</td>
+    <td>ล้างข้อมูล</td>
+</tr>
+<tr>
+    
+    <td>search</td><td>ช่องค้นหา</td>
+</tr>
+<tr>
+     
+    <td>submit</td>
+    <td>ปุ่มกดส่งข้อมูล</td>
+</tr>
+<tr>
+     
+    <td>tel</td><td>ใส่เบอร์</td>
+</tr>
+<tr>
+     
+    <td>text</td>
+    <td>กล่องใส่ตัวหนังสือ</td>
+</tr>
+<tr>
+    
+    <td>time</td><td>ให้กำหนดเวลา</td>
+</tr>
+<tr>
+    
+    <td>url</td><td>ให้ใส่ลิงค์</td>
+</tr>
+<tr>
+    
+    <td>week</td><td>ให้ใส่อาทิตกับปี</td>
+</tr>
+
+</table>
+<table>
+    <tr>
+        <th>tag</th>
+        <th>อธิบาย</th>
+    </tr>
+    <tr>
+        <td><strong>tag strong</strong></td>
+        <td>ตัวหน้าและทำให้เป็นข้อความสำคัญ</td>
+    </tr>
+    <tr>
+        <td><label for="label">label</label></td>
+        <td>ติดป้ายกำกับใช้ร่วมกับinput type</td>
+    </tr>
+    <tr>
+        <td><del>del</del></td>
+    </tr>
+</table>
+</body>
+</html>

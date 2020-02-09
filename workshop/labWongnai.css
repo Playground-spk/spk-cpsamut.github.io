@@ -1,0 +1,34 @@
+.header{
+
+
+
+}
+
+
+.container-list{
+    flex-wrap: wrap;
+    width: 80%;
+
+border: 1px solid black; /* นำออกเมื่อสมบูรณ์ */
+ 
+display: flex;
+
+
+
+}
+
+.item-list{
+
+        
+    
+    border: 1px solid black; /* นำออกเมื่อสมบูรณ์ */
+    
+    width: 20%;
+    height: 300px;
+
+    
+
+
+
+
+}
