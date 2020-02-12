@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ .color {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: color;
+  animation-duration: 4s;
+}
+.width{
+    width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: width;
+  animation-duration: 4s;
+
+}
+
+.border{
+    width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: border;
+  animation-duration: 4s;
+  border: 1px;
+}
+.backgroud-color{
+    width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: bgcolor;
+  animation-duration: 4s;
+  
+}
+.pstrela{
+    width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: pstr;
+  animation-duration: 4s;
+   animation-delay: 4s ;
+   animation-iteration-count: 2;
+   animation-direction:alternate;
+}
+.sh{
+    width: 100px;
+  height: 100px;
+  background-color: red;
+  visibility: visible;
+  animation-name: sh;
+  animation-duration: 4s;
+}
+@keyframes sh{
+    form {visibility: visible;}
+    to {visibility: hidden;}
+}
+
+@keyframes pstr {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+@keyframes bgcolor{
+    form {background-color: red;}
+    to {background-color: blue;}
+}
+
+@keyframes border{
+    from {border:  1px;}
+    to { border: 1px solid black}
+
+}
+
+@keyframes width{
+    from {width: 100px;
+  height: 100px;}
+    to {width: 200px;
+  height: 200px;}
+}
+
+@keyframes color {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+    </style>
+</head>
+<body>
+    
+    <div class="color">form to color</div>
+    <div class="width">form to width</div>
+    <div class="border">form to border</div>
+    <div class="backgroud-color">form to bgcolor</div>
+    <div class="pstrela">keyframes %</div>
+    <div class="sh"> formto show and hidden</div>
+</body>
+</html>

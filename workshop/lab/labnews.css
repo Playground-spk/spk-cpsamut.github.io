@@ -1,0 +1,98 @@
+
+/* navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 60px;
+  }
+  
+  li a:hover {
+    
+    font-size: 70px;
+  }
+
+  /* main container&box */
+
+  .container{
+      display: grid;
+      margin: 0px;
+      width: 100%;
+      padding: 100px;
+      grid-template-columns: 33% 33% 33%;
+      border: 1px dashed black;
+      column-gap: 50px;
+      background-image: url(D:/codecamp5/pic/corona.jpg);
+  }
+  .boxleft{
+    
+      display: grid;
+      grid-template-rows: 50% 30% 20%;
+      /* border: 1px soxlid black; */
+      margin: 0px;
+      border: 1px solid blue;
+
+      /* opacity: 0.8; */
+      /* row-gap: 40px; */
+      height: 100%;
+      width: 100%;
+      
+    
+  }
+  
+  .boxmid{
+    display: grid ;
+    grid-template-rows: 10% 18% 18% 18% 18% 18%;
+    border: 1px solid black ;
+   
+
+  }
+  .boxright{
+    display: grid;
+    grid-template-rows: 10% 10% 10% 30% 30%;
+    border: 1px solid black ;
+   
+  }
+
+/* item in box */
+x`
+.itemleft{
+  border: 1px dashed green ;
+  font-size: 30px;
+  text-align: center;
+/* padding-bottom: 20px; */
+/* justify-content: center; */
+
+  
+}
+.gridboxleft{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  
+
+}
+.item{
+  border: 1px solid black ;
+  font-size: 30px;
+  text-align: center;
+/* padding-bottom: 20px; */
+justify-content: center;
+background-color: red;
+
+  
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="container">
+        
+            <div class="item">
+            <label for="ff">Flying form</label>
+            <br>
+
+            <select id="ff">
+              <option value="thai">thai</option>
+              <option value="veitnam">veitnam</option>
+              <option value="japan">japan</option>
+              <option value="england">england</option>
+            </select>
+        </div>
+        <div class="item">
+            <label for="ft">Flying to</label><br>
+            <select id="ft">
+                <option value="thai">thai</option>
+              <option value="veitnam">veitnam</option>
+              <option value="japan">japan</option>
+              <option value="england">england</option>
+            </select>
+        </div>
+        <div class="item">
+            departing <br>
+            <input type="text" placeholder="03/01/2016">
+        </div>
+        <div class="item">
+            Returing <br>
+            <input type="text" placeholder="mm/dd/yyyy">
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>Adult <br>
+                    <input type="number" name="quantity" min="0" max="5" value="0"></div>
+                <div>Child <br>
+                    <input type="number" name="quantity" min="0" max="5" value="0"></div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>infant <br>
+                    <input type="number" name="quantity" min="0" max="5" value="0"></div>
+                <div>
+                    <label for="cur">Currency</label><br>
+                    <select id="cur">
+                        <option value="sgd">sgd</option>
+                      <option value="aud">aud</option>
+                      <option value="aus">aus</option>
+                      <option value="euro">euro</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <input type="button" class="button" value="Search">
+        </div>
+        
+    </div>
+    
+</body>
+</html>
