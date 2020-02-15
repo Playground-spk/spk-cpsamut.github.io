@@ -36,7 +36,7 @@ ul {
       grid-template-columns: 33% 33% 33%;
       border: 1px dashed black;
       column-gap: 50px;
-      background-image: url("pic/corono.jpg");
+      background-color: burlywood;
   }
   .boxleft{
     
@@ -69,6 +69,8 @@ ul {
     display: grid;
     grid-template-rows: 10% 10% 10% 30% 30%;
     border: 1px solid black ;
+    background-color: black;
+    align-content: space-between;
    
   }
 
@@ -137,5 +139,14 @@ font-weight: 700;
 }
 
 .itemright{
-  
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: red;
+}
+
+.itemright2{
+  width: 100%;
+  height: 100%;
+  grid-row: 1/3;
 }

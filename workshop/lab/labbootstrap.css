@@ -1,6 +1,8 @@
 .bg-form{
 
-    background-color: cadetblue ;
+    background-color: white ;
     position: relative;
-    bottom: 50px;
+    bottom: 200px;
+    z-index: 1;
+    box-shadow: 10px 5px 5px 0px ;
 }
