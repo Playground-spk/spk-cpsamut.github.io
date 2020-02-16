@@ -136,3 +136,35 @@
          width: 100px;
          height:108px ;
      }
+
+     /* - - - - - - - --  */
+
+     /* banner-mid */
+
+     .banner-mid{
+         width: 1200px;
+         display: block;
+         margin: auto;
+         background-color: darkblue;
+         height: 95px;
+     }
+
+     /* - - - - - - --- */
+
+     /* section */
+
+     .section{
+         display:grid;
+         grid-template-columns: auto auto auto auto auto 
+         auto auto auto auto auto;
+         width: 1200px;
+         height: 300px;
+         margin: auto;
+         /* justify-content: space-around; */
+         /* align-content: space-around; */
+     }
+     .section-h{
+         width: 1200px;
+         margin: 30px auto;
+         padding-left: 40px;
+     }
