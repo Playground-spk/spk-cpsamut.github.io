@@ -1,9 +1,22 @@
+let yourpoint = prompt('บอกคะแนนของคุณ');
 
 
-let human  ;
+if(yourpoint >= 80) {
+alert('grade is a')
+}
 
-let name = 'Supakon Cheepsamut'
+else if(yourpoint >= 70){
+    alert('grade is b')
+}
 
-human = name
+else if(yourpoint >= 60){
+    alert('grade is c')
+}
 
-console.log(human)
+else if(yourpoint >= 50){
+    alert('grade is d')
+}
+
+else{
+    alert('grade is f')
+}
